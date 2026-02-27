@@ -69,8 +69,18 @@
     "on-click": "activate",
     "format": "{icon}",
     "format-icons": {
-        "active": "<span color='#ffff00' size='14000'>󰮯</span>",
-        "default": "<span color='#81c8be'>󰊠</span>"
+      "1": "<span color='#ff0000' >󰊠</span>",  // Blinky – red
+      "2": "<span color='#ffb8ff' >󰊠</span>",  // Pinky – pink
+      "3": "<span color='#00ffff' >󰊠</span>",  // Inky – cyan
+      "4": "<span color='#ffb852' >󰊠</span>",  // Clyde – orange
+      "5": "<span color='#d51aff' >󰊠</span>",  // Sue – violet
+      "6": "<span color='#8eae8c' >󰊠</span>",  // Funky - dark green
+      "7": "<span color='#ffff00' >󰊠</span>",  // Hungry - Yellow
+      "8": "<span color='#ffffff' >󰊠</span>",  // Spooky - white
+      "9": "<span color='#917a75' >󰊠</span>",  // Spunky - grey
+      "10": "<span color='#dcd226' >󰊠</span>",  // Zippy - lime
+      "active": "<span color='#ffff00' font='20'>𜱭</span>",  // yellow Pacman
+      "default": ""
     }
   },
 

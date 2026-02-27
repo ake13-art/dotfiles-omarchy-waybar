@@ -95,6 +95,12 @@ box#window {
 }
 
 /* --- Middle Modules --- */
+
+/* - custom/update - */
+#custom-update {
+    min-width: 15px;
+}
+
 /* - CPU - */
 #cpu{
     border-bottom: none;

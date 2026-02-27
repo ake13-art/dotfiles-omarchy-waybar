@@ -61,6 +61,10 @@ window > box {
     background-color: alpha(@theme_fg_color, 0.25); /* Increased from 0.15 to 0.25 */
 }
 
+#workspaces button.empty {
+    opacity: 0.5;
+}
+
 #workspaces button:last-child {
     border-right: none;
 }
@@ -77,6 +81,11 @@ window > box {
 
 #workspaces button.persistent {
     font-style: italic;
+}
+
+#workspaces button.active {
+    opacity: 1;
+    color: #ffff00;
 }
 
 /* - Sway Window - */

@@ -26,7 +26,17 @@ A custom Waybar configuration featuring a retro gaming aesthetic with Pacman-the
 
 ---
 
-## Installation
+## Quick Install (One-Liner)
+
+Copy and paste this command into your terminal:
+
+```bash
+bash -c 'cd /tmp && git clone https://github.com/ake13-art/dotfiles-omarchy-waybar.git && cd dotfiles-omarchy-waybar && mkdir -p ~/.config/waybar/scripts && cp config.jsonc style.css ~/.config/waybar/ && cp scripts/net-speed.sh ~/.config/waybar/scripts/ && chmod +x ~/.config/waybar/scripts/net-speed.sh && echo "Waybar config installed! Restart Waybar to apply changes."'
+```
+
+---
+
+## Manual Installation
 
 1. **Copy the network speed script**:
    ```bash
@@ -35,6 +45,7 @@ A custom Waybar configuration featuring a retro gaming aesthetic with Pacman-the
    
    # Copy the net-speed.sh script
    cp scripts/net-speed.sh ~/.config/waybar/scripts/
+   chmod +x ~/.config/waybar/scripts/net-speed.sh
    ```
 
 2. **Replace configuration files**:
